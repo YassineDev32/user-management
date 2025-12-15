@@ -1,5 +1,5 @@
 # Utiliser une image de base OpenJDK
-FROM eclipse-temurin:21-jdk-jammy
+FROM openjdk:21-jdk-slim
 
 # Créer un répertoire de travail
 WORKDIR /app
